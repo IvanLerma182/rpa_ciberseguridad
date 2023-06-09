@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de sitio web</title>
+
+    <!-- flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div>
+        <!-- navbar -->
+        <nav class="bg-azuloscuro border-gray-200 sticky top-0">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+                <a href="#" class="flex items-center">
+                    <div class="rounded-full border-8 p-2 border-azulclaro bg-white">
+                        <img src="/static/images/logo.png" class="h-8" alt="Flowbite Logo" />
+                    </div>
+
+                </a>
+                <button data-collapse-toggle="navbar-default" type="button"
+                    class="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-default" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden w-full md:block md:w-auto mx-auto" id="navbar-dropdown">
+                    <ul
+                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0">
+                        <li>
+                            <a href="/#"
+                                class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <button id="dropdownNavbarLink" data-dropdown-toggle="opcionesMenu"
+                                class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0 md:w-auto ">Carding
+                                <svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                        clip-rule="evenodd"></path>
+                                </svg></button>
+                            <!-- Dropdown menu -->
+                            <div id="opcionesMenu"
+                                class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44">
+                                <ul class="py-2 text-sm text-gray-700 bg-white rounded-lg"
+                                    aria-labelledby="dropdownLargeButton">
+                                    <li>
+                                        <a href="/website_information" class="block px-4 py-2 font-semibold">Información
+                                            de sitio web</a>
+                                    </li>
+                                    <li>
+                                        <a href="/informacion_numero" class="block px-4 py-2 font-semibold">Información
+                                            de número de
+                                            teléfono</a>
+                                    </li>
+                                    <li>
+                                        <a href="/dominio_informacion" class="block px-4 py-2 font-semibold">Escáner de
+                                            subdominio</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/cuentas"
+                                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0 ">
+                                Accounts</a>
+                        </li>
+                        <li>
+                            <a href="/dark"
+                                class="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-500 md:p-0 ">
+                                Vulnerabilitys</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--close navbar-->
+
+
+        <!--container-->
+        <div class="px-20 pb-12 pt-16 bg-blanco">
+            <div class="p-6">
+                <div class="flex items-center">
+                    <div>
+                        <div class="max-w-[600px]" style="word-wrap: break-word;">
+                            <div class="p-6">
+                                <h1 class="text-7xl font-extrabold text-azuloscuro">Cyber Robot Antiphishing</h1>
+                            </div>
+
+                            <div class="p-6">
+                                <a href="#analizador"
+                                    class="rounded-lg bg-transparent border-2 border-azulclaro text-azulclaro py-4 px-5 font-bold">
+                                    Phishing Scanner
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rounded-full border-40 border-azulclaro md:ml-[250px] p-6">
+                        <div class="rounded-full border-solid border-25 border-azulclaro p-6">
+                            <img src="/static/images/logo.png" alt="logo" class="h-36">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- close container -->
+
+        <div class="p-8 bg-amarillooscuro">
+            <div class="py-12">
+                <div class="py-12">
+                    <h1 class="text-6xl text-azuloscuro text-center font-extrabold">Website Information</h1>
+                </div>
+            </div>
+
+            <form method="post">
+                <div class="md:ml-[400px] mt-10">
+                    <div class="flex items-center">
+                        <div>
+                            <input type="text" name="url"
+                                class="rounded-full border-azuloscuro border-b-2 border-t-0 border-l-0 border-r-0 py-2 bg-blanco md:w-[400px] text-2xl text-azuloscuro font-bold shadow-lg placeholder-azuloscuro"
+                                placeholder="Inserte su link..." required>
+                        </div>
+                        <div class="mx-4 md:mx-[100px]">
+                            <button type="submit" value="Obtener información"
+                                class="bg-blanco border-azuloscuro border-b-2 text-azuloscuro text-2xl font-bold px-6 py-2 rounded-full shadow-lg">
+                                Analizar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+            {% if info %}
+            <div class="py-12 flex justify-center">
+                <div class="max-w-5xl bg-white rounded-lg">
+                    <div class="py-12">
+                        <h1 class="text-5xl text-dark text-center font-bold">Resultados</h1>
+                    </div>
+
+
+                    <h1 class="py-2 px-4 text-2xl font-bold">{{ info.title }}</h1>
+
+                    <div class="container">
+                        <div class="max-w-5xl">
+                            <div class="px-4">
+                                <div class="bg-green-300 text-sm px-6 py-3 rounded-t-lg">
+                                    <h2 class="text-xs font-bold text-gray-600 uppercase">Links</h2>
+                                </div>
+                            </div>
+                            <div class="bg-white px-6 py-4 rounded-b-lg">
+                                <ul class="list-disc px-6 font-medium">
+                                    {% for link in info.links %}
+                                    <li><a href="{{ link }}" style="word-wrap: break-word;">{{ link }}</a></li>
+                                    {% endfor %}
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="px-4 overflow-x-auto">
+                        <table class="w-full text-sm text-left text-gray-500">
+                            <thead class="text-xs text-gray-700 uppercase bg-green-300">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 rounded-l-lg">
+                                        Encabezados
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for header in info.headers %}
+                                <tr class="bg-white">
+                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                        {{ header }}
+                                    </th>
+                                </tr>
+                                {% endfor %}
+                        </table>
+                    </div>
+                    <div class="px-4 overflow-x-auto">
+                        <table class="w-full text-sm text-left text-gray-500">
+                            <thead class="text-xs text-gray-700 uppercase bg-green-300">
+                                <tr>
+                                    <th scope="col" class="px-6 py-3 rounded-l-lg">
+                                        Seguridad
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% if info.is_secure %}
+                                <tr class="bg-white">
+                                    <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap">
+                                        {% if info.is_secure %}
+                                        <p>El sitio web utiliza el protocolo HTTPS y tiene un certificado SSL válido.
+                                        </p>
+                                        {% else %}
+                                        <p>El sitio web no utiliza el protocolo HTTPS o no tiene un certificado SSL
+                                            válido.</p>
+                                        {% endif %}
+                                    </th>
+                                </tr>
+                                {% endif %}
+                        </table>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        <div class="pt-36 bg-amarillooscuro"></div>
+
+        <!--footer-->
+        <footer class="bg-blanco">
+            <div class="bg-blanco  mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+                <div class="md:flex md:justify-between">
+                    <div class="mb-6 md:mb-0">
+
+                        <div class="py-3">
+
+                            <form action="" method="post">
+                                <div class="flex items-center">
+                                    <div class="">
+                                        <input type="email" name="email" id="email"
+                                            class="rounded-full bg-azulclaro placeholder-white text-xl shadow-lg"
+                                            style="border: none;" placeholder="Enter email">
+                                    </div>
+                                    <div class="ml-2">
+                                        <button type="submit"
+                                            class="text-xl text-white font-semibold bg-azulclaro py-2 px-4 rounded-full shadow-lg">Enviar</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <a href="#" class="flex items-center">
+                            <div class="rounded-full border-8 p-2 border-azulclaro bg-blanco">
+                                <img src="/static/images/logo.png" class="h-8" alt="Logo" />
+                            </div>
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold uppercase text-azuloscuro">Campus
+                            </h2>
+                            <ul class="text-azulclaro font-medium">
+                                <li class="mb-4">
+                                    <a href="https://www.javeriana.edu.co/inicio" class="hover:underline">Universidad
+                                        Javeriana</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="hover:underline">Tailwind CSS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-6 sm:mx-auto border-2 border-azuloscuro lg:my-8" />
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <span class="text-sm text-azuloscuro sm:text-center ">© 2023 <a href="#"
+                            class="hover:underline">InfinityDevs™</a>. All Rights Reserved.
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- flowbite -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                container: {
+                    center: true,
+                },
+                extend: {
+                    backgroundColor: {
+                        'azuloscuro': '#0C3257',
+                        'azulclaro': '#014C8D',
+                        'amarilloclaro': '#FFD700',
+                        'amarillooscuro': '#FECE00',
+                        'blanco': '#FBFBFB'
+                    },
+                    colors: {
+                        azuloscuro: '#0C3257',
+                        azulclaro: '#014C8D',
+                        amarilloclaro: '#FFD700',
+                        amarillooscuro: '#FECE00',
+                        blanco: '#FBFBFB'
+                    },
+                    borderWidth: {
+                        '25': '25px',
+                        '40': '40px'
+                    },
+                    borderColor: {
+                        'azuloscuro': '#0C3257',
+                        'azulclaro': '#014C8D',
+                        'amarilloclaro': '#FFD700',
+                        'amarillooscuro': '#FECE00',
+                        'blanco': '#FBFBFB'
+                    },
+
+
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
