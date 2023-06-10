@@ -1,15 +1,14 @@
 {
-    "version": 2,
     "builds": [
       {
-        "src": "./links.py",
+        "src": "links.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/"
+        "dest": "/links.py"
       }
     ]
   }
